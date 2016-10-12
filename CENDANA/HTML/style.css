@@ -1,0 +1,29 @@
+.jdl {
+	font-style: italic;
+	font-size: 30px;
+	text-shadow: 1px 2px 2px #F0F8FF;
+}
+
+.s3 {
+	background: #5F9EA0;
+}
+
+p {
+    background-image: url(Koala.jpg);
+    background-position: center;
+    background-size: 600px 470px;
+    background-repeat: no-repeat, repeat;
+	font-family: fantasy;
+	color: #00FFFF;
+	font-size: 15px;
+}
+
+.s2 {
+	font-style: italic;
+	font-size: 30px;
+	text-shadow: 1px 2px 2px #F0F8FF;
+}
+
+.s3 {
+	background: #5F9EA0;
+}

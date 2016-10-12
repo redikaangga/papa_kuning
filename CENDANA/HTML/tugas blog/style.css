@@ -1,0 +1,77 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+#semua {
+	margin: 5px;
+	padding: 3px;
+	border-radius: 5px;
+	background-color:lightsteelblue;
+}
+
+body {
+	background-color: white;
+	padding: 5px;
+}
+div p {
+	text-align: justify;
+	font-family: sans-serif;
+}
+#menu ul li{
+	list-style-type: none;
+	display: inline-block;
+}
+
+#clearfix {
+	clear: both;
+}
+#header {
+	position: relative;
+	width: 100%;
+}
+#header img {
+	/*border-style: ridge;*/
+	border-radius: 15px;
+	width: 100%;
+}
+
+#konten { 
+	/*padding: 0px 10px;*/
+	color: black;
+	background: lavender; 
+	float: left; 
+	width: 60%; 
+	/*margin-right: 20%; */
+	/*margin-left: -80%;*/
+}
+#kiri {
+    background: grey;
+    color: white;
+    /*padding: 30px 5px;*/
+    width: 20%; 
+    float: left;
+}
+#kiri .konten-kiri {
+	padding: 50px;
+}
+#kanan { 
+    background: grey;
+    color: white;
+    /*padding: 3px 5px;*/
+    width: 20%; 
+    float: right;
+}
+#kanan .konten-kanan {
+	padding: 50px;
+}
+#main {
+	position: absolute;
+	float: none;
+	left: 256px;
+	width: 60%;
+	background-color: aquamarine;
+}
+#footer {
+	/*background-color: yellow;*/
+	clear: both;
+}

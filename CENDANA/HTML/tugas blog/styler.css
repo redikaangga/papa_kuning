@@ -1,0 +1,46 @@
+#semua {
+	margin: auto;
+	/*border-color: red;*/
+}
+div p{
+	text-align: justify;
+	font-family: sans-serif;	
+}
+body {
+	background-color: lightsteelblue;
+}
+
+div ul {
+	text-decoration: none;
+}
+
+#konten { 
+	padding: 0px 10px;
+	color: black;
+	background: lavender; 
+	float: right; 
+	width: 60%; 
+	margin-right: 20%; 
+	margin-left: -80%;
+}
+#kiri {
+    /*background: red;*/
+    width: 20%; 
+    float: left;
+}
+#main {
+	position: absolute;
+	float: none;
+	left: 256px;
+	width: 60%;
+	background-color: aquamarine;
+}
+#kanan { 
+    background: blue;
+    width: 20%; 
+    float: right;
+}
+#footer {
+	/*background-color: yellow;*/
+	clear: both;
+}

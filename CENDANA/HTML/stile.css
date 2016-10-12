@@ -1,0 +1,56 @@
+div {
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	left: 20px;
+	top: 20px;
+}
+
+#k1{
+	background-color: red;
+	z-index: 1;
+}
+
+#k2{
+	background-color: green;
+	z-index: 2;
+	top: 40px;
+	left: 40px;
+}
+
+
+#header {
+	background-color: blue;
+/*	display: inline;*/
+}
+
+.clearfix {
+	clear : both;
+}
+
+#kotak {
+	background-color: red;
+	height: 300px;
+	width: 1285px; 
+	position: relative;
+}
+#kotak #isi {
+	background-color: aqua;
+	float: left;
+	width: 50%;
+	position: absolute;
+	top: 150px;
+	left: 0px;	
+}
+#kotak #mainbar {
+	background-color: yellow;
+	/*float: right;*/
+	width: 50%;
+	position: absolute;
+	bottom: 150px;
+	right: 0px;
+}
+
+#footer {
+	background-color: red;
+}

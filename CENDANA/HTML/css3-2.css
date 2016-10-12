@@ -1,0 +1,29 @@
+/*
+.box {
+	width: 100px;
+	height: 100px;
+	top: 50px;
+	left: 50px;
+	background: blue;
+	position: absolute;
+	radial-gradient(blue, red);
+	/*background: 
+	repeating-linear-gradient(
+		45deg,
+		green,
+		yellow 10px
+		);*/
+	/*transition: height 0.5s linear;
+*/
+}
+.box {
+	width: 100px;
+	height: 100px;
+	top: 50px;
+	left: 50px;
+	background-image: url(auto.png);
+	transition:left 1s ease;
+}
+.box:hover{
+	background-image: url(decept.png);
+}
